@@ -1,0 +1,158 @@
+Introduction
+The methodology of School 21 makes sense only if peer-to-peer reviews are done seriously. Please read all guidelines carefully before starting the review.
+- Please, stay courteous, polite, respectful and constructive in all communications during this review.
+- Highlight possible malfunctions of the work done by the person and take the time to discuss and debate it.
+- Keep in mind that sometimes there can be differences in interpretation of the tasks and the scope of features. Please, stay open-minded to the vision of the other.
+- If you have not finished the project yet, it is compulsory to read the entire instruction before starting the review.
+
+Guidelines
+- Evaluate only the files that are in src folder on the GIT repository of the student or group.
+- Ensure to start reviewing a group project only when the team is present in full.
+- Use special flags in the checklist to report, for example, an “empty work” if repository does not contain the work of the student (or group) in the src folder of the develop branch, or “cheat” in case of cheating or if the student (or group) are unable to explain their work at any time during review as well as if one of the points below is not met. However, except for cheating cases, you are encouraged to continue reviewing the project to identify the problems that caused the situation in order to avoid them at the next review.
+- Doublecheck that the GIT repository is the one corresponding to the student or the group.
+- Meticulously check that nothing malicious has been used to mislead you.
+- In controversial cases, remember that the checklist determines only the general order of the check. The final decision on project evaluation remains with the reviewer
+
+Part_1.CAT
+- The cat program builds successfully
+- Tests run successfully
+- Tests include all variants of flags (including GNU versions) and input values to them
+- The program is developed in C language of C11 standard using gcc compiler
+- The code of the program is in the src folder
+- The program is built with Makefile with target s21_cat
+- The program works
+- The program is developed according to the principles of structured programming: the program is decomposed into files and functions, top-down design is used. Buisness logic and io-tasks are separated into different functions
+- There is no code duplication
+- There is one input and one output in all program structures (functions and loops). This excludes the cases when multiple outputs are allowed at the beginning of functions to handle erroneous situations
+- No goto statement is used
+- Integration tests fully cover the programs comparing the results of the developed programs with the standard ones provided by OS
+- The common code of the utilities is placed in a special module that is used by all programs
+- The code is decomposed
+
+Part_2.GREP
+- The grep program builds successfully
+- Tests run successfully
+- Tests include all following variants of flags and input values to them: -e, -i, -v, -c, -l, -n
+- The program is developed in C language of C11 standard using gcc compiler
+- The code of the program is in the src folder
+- The program is built with Makefile with target s21_grep
+- The program works
+- The program is developed according to the principles of structured programming: the program is decomposed into files and functions, top-down design is used. Buisness logic and io-tasks are separated into different functions
+- There is no code duplication
+- There is one input and one output in all program structures (functions and loops). This excludes the cases when multiple outputs are allowed at the beginning of functions to handle erroneous situations
+- No goto statement is used
+- Integration tests fully cover the programs comparing the results of the developed programs with the standard ones provided by OS
+- The common code of the utilities is placed in a special module that is used by all programs
+- The code is decomposed
+
+Part_3.GREP
+- The grep program builds successfully
+- Tests run successfully
+- Tests include all variants of flags and input values to them: -h, -s, -f, -o
+- The program is developed in C language of C11 standard using gcc compiler.
+- The code of the program is in the src folder
+- The program is built with Makefile with target s21_grep
+- The program works
+- The program is developed according to the principles of structured programming: the program is decomposed into files and functions, top-down design is used.
+- There is no code duplication
+- There is one input and one output in all program structures (functions and loops). This excludes the cases when multiple outputs are allowed at the beginning of functions to handle erroneous situations
+- No goto statement is used
+- Integration tests fully cover the programs comparing the results of the developed programs with the standard ones provided by OS
+- The common code of the utilities is placed in a special module that is used by all programs
+- The code is decomposed
+
+Part_4.GREP
+- The grep program builds successfully
+- Tests run successfully
+- Tests include all variants of flags, their pair combinations and input values to them
+- The program is developed in C language of C11 standard using gcc compiler.
+- The code of the program is in the src folder
+- The program is built with Makefile with target s21_grep
+- The program works
+- The program is developed according to the principles of structured programming: the program is decomposed into files and functions, top-down design is used.
+- There is no code duplication
+- There is one input and one output in all program structures (functions and loops). This excludes the cases when multiple outputs are allowed at the beginning of functions to handle erroneous situations
+- No goto statement is used
+- Integration tests fully cover the programs comparing the results of the developed programs with the standard ones provided by OS
+- The common code of the utilities is placed in a special module that is used by all programs
+- The code is decomposed
+
+
+Вступление
+Методология Школы 21 имеет смысл только в том случае, если коллегиальные обзоры проводятся серьезно. Пожалуйста, внимательно прочитайте все рекомендации перед началом обзора.
+- Пожалуйста, оставайтесь обходительными, вежливыми, уважительными и конструктивными во всех сообщениях во время этого обзора.
+- Выделите возможные сбои в работе, выполняемой этим человеком, и найдите время, чтобы обсудить их.
+- Имейте в виду, что иногда могут быть различия в интерпретации задач и объеме функций. Пожалуйста, оставайтесь непредубежденными к видению другого.
+- Если вы еще не закончили проект, обязательно прочитайте всю инструкцию до начала проверки.
+
+Методические рекомендации
+- Оценивайте только те файлы, которые находятся в папке src в репозитории GIT учащегося или группы.
+- Убедитесь, что вы начинаете рассмотрение группового проекта только тогда, когда команда присутствует в полном составе.
+- Используйте специальные флаги в контрольном списке, чтобы сообщить, например, о “пустой работе”, если репозиторий не содержит работу студента (или группы) в папке src ветки разработки, или “чит” в случае обмана или если студент (или группа) не могут объясните их работу в любое время во время проверки, а также в случае невыполнения одного из приведенных ниже пунктов. Однако, за исключением случаев мошенничества, вам рекомендуется продолжить просмотр проекта, чтобы выявить проблемы, вызвавшие ситуацию, чтобы избежать их при следующем просмотре.
+- Дважды проверьте, что репозиторий GIT соответствует студенту или группе.
+- Тщательно проверьте, не было ли использовано ничего вредоносного, чтобы ввести вас в заблуждение.
+- В спорных случаях помните, что контрольный список определяет только общий порядок проверки. Окончательное решение по оценке проекта остается за рецензентом
+
+Part_1.CAT
+- Программа cat успешно строится
+- Тесты выполнены успешно
+- Тесты включают все варианты флагов (включая версии GNU) и входные значения для них
+- Программа разработана на языке C стандарта C11 с использованием компилятора gcc
+- Код программы находится в папке src
+- Программа собрана с помощью Makefile с целью s21_cat
+- Программа работает
+- Программа разработана в соответствии с принципами структурированного программирования: программа разбита на файлы и функции, используется нисходящий дизайн. Бизнес-логика и задачи ввода-вывода разделены на разные функции
+- Нет дублирования кода
+- Во всех структурах программы (функциях и циклах) есть один вход и один вывод. Это исключает случаи, когда в начале функций разрешено несколько выходов для обработки ошибочных ситуаций
+- Оператор goto не используется
+- Интеграционные тесты полностью охватывают программы, сравнивая результаты разработанных программ со стандартными, предоставляемыми ОС
+- Общий код утилит помещен в специальный модуль, который используется всеми программами
+- Код декомпозирован
+
+Часть_2.GREP
+- Программа grep успешно выполняется
+- Тесты выполнены успешно
+- Тесты включают в себя все следующие варианты флагов и входных значений для них: -e, -i, -v, -c, -l, -n
+- Программа разработана на языке C стандарта C11 с использованием компилятора gcc
+- Код программы находится в папке src
+- Программа собрана с помощью Makefile с целевым s21_grep
+- Программа работает
+- Программа разработана в соответствии с принципами структурированного программирования: программа разбита на файлы и функции, используется нисходящий дизайн. Бизнес-логика и задачи ввода-вывода разделены на разные функции
+- Нет дублирования кода
+- Во всех структурах программы (функциях и циклах) есть один вход и один вывод. Это исключает случаи, когда в начале функций разрешено несколько выходов для обработки ошибочных ситуаций
+- Оператор goto не используется
+- Интеграционные тесты полностью охватывают программы, сравнивая результаты разработанных программ со стандартными, предоставляемыми ОС
+- Общий код утилит помещен в специальный модуль, который используется всеми программами
+- Код декомпозирован
+
+Часть_3.GREP
+- Программа grep успешно выполняется
+- Тесты выполнены успешно
+- Тесты включают в себя все варианты флагов и входные значения для них: -h, -s, -f, -o
+- Программа разработана на языке C стандарта C11 с использованием компилятора gcc.
+- Код программы находится в папке src
+- Программа собрана с помощью Makefile с целью s21_grep
+- Программа работает
+- Программа разработана в соответствии с принципами структурированного программирования: программа разбита на файлы и функции, используется нисходящий дизайн.
+- Нет дублирования кода
+- Во всех структурах программы (функциях и циклах) есть один вход и один вывод. Это исключает случаи, когда в начале функций разрешено несколько выходов для обработки ошибочных ситуаций
+- Оператор goto не используется
+- Интеграционные тесты полностью охватывают программы, сравнивая результаты разработанных программ со стандартными, предоставляемыми ОС
+- Общий код утилит помещен в специальный модуль, который используется всеми программами
+- Код декомпозирован
+
+Часть_4.GREP
+- Программа grep успешно выполняется
+- Тесты выполнены успешно
+- Тесты включают в себя все варианты флагов, их парные комбинации и входные значения для них
+- Программа разработана на языке C стандарта C11 с использованием компилятора gcc.
+- Код программы находится в папке src
+- Программа собрана с помощью Makefile с целью s21_grep
+- Программа работает
+- Программа разработана в соответствии с принципами структурированного программирования: программа разбита на файлы и функции, используется нисходящий дизайн.
+- Нет дублирования кода
+- Во всех структурах программы (функциях и циклах) есть один вход и один вывод. Это исключает случаи, когда в начале функций разрешено несколько выходов для обработки ошибочных ситуаций
+- Оператор goto не используется
+- Интеграционные тесты полностью охватывают программы, сравнивая результаты разработанных программ со стандартными, предоставляемыми ОС
+- Общий код утилит помещен в специальный модуль, который используется всеми программами
+- Код декомпозирован

@@ -1,0 +1,6 @@
+abc
+test
+[0-9]
+\[0-1][0-9]
+long sentence with words
+VerY LonG seNtence witH SOME words
